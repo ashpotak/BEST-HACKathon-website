@@ -3,20 +3,19 @@
     <head>
       <meta charset="UTF-8" />
       <title>BEST HACKATON</title>
-
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+      <!--Styles-->
      <link rel = "stylesheet" type = "text/css" href = "css/style.css">
      <link rel = "stylesheet" type = "text/css" href = "css/jquery.fullPage.css">
-     <!-- Latest compiled and minified CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+     <!--Bootstrap:
+           Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <!-- Optional theme -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
       <!-- Latest compiled and minified JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+      <!--JQuery:         -->
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
       <style>
@@ -30,69 +29,59 @@
     <body>
       <div id="fullpage" class="container-fluid" style="padding: 0px;">
         <section class="col-md-12 section">
-          <div class="row">
-            <div class = "col-xs-12 col-sm-6 col-md-6 no-margin left-side-column partners"> for partners </div>
+          <div  id="sf" class="scroll-section row">
+            <div class = "col-xs-12 col-sm-6 col-md-6 no-margin left-side-column partners"> <h1>for partners</h1> </div>
             <div class = "col-xs-12 col-sm-6 col-md-6 no-margin right-side-column participants"> for participants </div>
           </div>
         </section>
         <section class="col-md-12 section">
-          <div class="row">
-            <div class = "col-xs-12 col-md-6 no-margin left-side-column_1 window">Do you know</div>
+          <div id="nyc" class="scroll-section row">
+            <div class = "col-xs-12 col-md-6 no-margin left-side-column_1 window"> <h2>Do you know</h2> </div>
             <div class = "col-xs-12 col-md-6 no-margin right-side-column_1 columns">Categories</div>
           </div>
         </section>
         <section class="col-md-12 section">
-          <div  class="row">
+          <div id="dc" class="scroll-section row">
             <div class = "col-xs-12 no-margin center-white-column registration"> Register </div>
           </div>
         </section>
         <section class="col-xs-12 col-md-12 section">
-          <div class="row">
+          <div id="philly" class="scroll-section row">
             <div class = "col-md-6 col-xs-12 no-margin left-side-column gallery"> Gallery </div>
             <div class = "col-md-6 col-xs-12 no-margin right-side-column schedule"> Schedule </div>
           </div>
         </section>
         <section class="col-md-12 section">
-          <div class="row">
+          <div id="la" class="scroll-section row">
             <div class = "col-xs-12 no-margin center-white-column partners"> Our partners</div>
           </div>
         </section>
         <section class="col-md-12 section">
-          <div class="row">
+          <div id="Coreteam" class="scroll-section row">
             <div class = "col-xs-12 no-margin center-green-column coreteam"> Coreteam </div>
           </div>
         </section>
         <section class="col-md-12 section">
-          <div class="row">
+          <div id="Contacts" class="scroll-section row">
             <div class = "col-xs-12 no-margin center-white-column contacts"> Contacts </div>
           </div>
         </section>
         <footer>
           <section class="col-md-12 section" style="height: 100vh">
-            <div class="row">
+            <div id="Footer" class="scroll-section row">
               <div class = "col-xs-12 no-margin center-green-column coreteam"> Footer </div>
             </div>
           </section>
         </footer>
       </div>
 
-      <script
-        src="https://code.jquery.com/jquery-3.2.1.js"
-        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-        crossorigin="anonymous">
-      </script>
-      <script src="js/jquery.easings.min.js"></script>
-      <script src="js/scrolloverflow.min.js"></script>
-      <script src="js/jquery.fullPage.min.js"></script>
-      <!-- инициализация плагина fullpage -->
-      <script>
-          $(document).ready(function () {
-            $('#fullpage').fullpage();
-            menu: '#navigation'
-          });
-        </script>
+      <!--Main JS file-->
+      <script src="js/index.js"></script>
 
-      </script>
+      <!--Fullpage scrolling-->
+      <script src="js/Scrolling/jquery.easings.min.js"></script>
+      <script src="js/Scrolling/scrolloverflow.min.js"></script>
+      <script src="js/Scrolling/jquery.fullPage.min.js"></script>
 
     </body>
 </html>
