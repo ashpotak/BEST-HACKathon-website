@@ -6,8 +6,19 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!--Styles-->
      <link rel = "stylesheet" type = "text/css" href = "css/style.css">
-     <link rel = "stylesheet" type = "text/css" href = "css/jquery.fullPage.css">
+     <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/mruoss/jquery-scroll-indicator-bullets/2.0.0/dist/jquery.scrollindicatorbullets.css" media="screen">
 
+     <style>
+       .col-{
+         padding-left: 0px;
+         padding-right: 0px;
+       }
+
+     </style>
+
+    <!--Scripts-->
+     <!--JQuery:         -->
+      <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
      <!--Bootstrap:
            Latest compiled and minified CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -15,73 +26,64 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
       <!-- Latest compiled and minified JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-      <!--JQuery:         -->
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
-      <style>
-        .col-{
-          padding-left: 0px;
-          padding-right: 0px;
-        }
+      <!--Main JS file-->
+      <script src="js/index.js"></script>
 
-      </style>
     </head>
     <body>
-      <div id="fullpage" class="container-fluid" style="padding: 0px;">
-        <section class="col-md-12 section">
-          <div  id="sf" class="scroll-section row">
-            <div class = "col-xs-12 col-sm-6 col-md-6 no-margin left-side-column partners"> <h1>for partners</h1> </div>
-            <div class = "col-xs-12 col-sm-6 col-md-6 no-margin right-side-column participants"> for participants </div>
+      <div class="container-fluid" style="padding: 0px;">
+        <section class="col-md-12">
+          <div class="row">
+            <div id="#for_partn" class = "col-xs-12 col-sm-6 col-md-6 no-margin left-side-column scroll-section"> for partners </div>
+            <div id="#for_partr" class = "col-xs-12 col-sm-6 col-md-6 no-margin right-side-column scroll-section"> for participants </div>
           </div>
         </section>
-        <section class="col-md-12 section">
-          <div id="nyc" class="scroll-section row">
-            <div class = "col-xs-12 col-md-6 no-margin left-side-column_1 window"> <h2>Do you know</h2> </div>
-            <div class = "col-xs-12 col-md-6 no-margin right-side-column_1 columns">Categories</div>
+        <section  class="col-md-12">
+          <div class="row">
+            <div id="#do_you" class = "col-xs-12 col-md-6 no-margin left-side-column_1 scroll-section"> Do you know< </div>
+            <div id="#categ" class = "col-xs-12 col-md-6 no-margin right-side-column_1 scroll-section">Categories</div>
           </div>
         </section>
-        <section class="col-md-12 section">
-          <div id="dc" class="scroll-section row">
-            <div class = "col-xs-12 no-margin center-white-column registration"> Register </div>
+        <section id="#reg" class="col-md-12 scroll-section">
+          <div class="row">
+            <div class = "col-xs-12 no-margin center-white-column"> Register </div>
           </div>
         </section>
-        <section class="col-xs-12 col-md-12 section">
-          <div id="philly" class="scroll-section row">
-            <div class = "col-md-6 col-xs-12 no-margin left-side-column gallery"> Gallery </div>
-            <div class = "col-md-6 col-xs-12 no-margin right-side-column schedule"> Schedule </div>
+        <section class="col-xs-12 col-md-12">
+          <div class="row">
+            <div id="#gal" class = "col-md-6 col-xs-12 no-margin left-side-column scroll-section"> Gallery </div>
+            <div id="#sched" class = "col-md-6 col-xs-12 no-margin right-side-column scroll-section"> Schedule </div>
           </div>
         </section>
-        <section class="col-md-12 section">
-          <div id="la" class="scroll-section row">
-            <div class = "col-xs-12 no-margin center-white-column partners"> Our partners</div>
+        <section id="#partn" class="col-md-12 scroll-section">
+          <div class="row">
+            <div class = "col-xs-12 no-margin center-white-column"> Our partners</div>
           </div>
         </section>
-        <section class="col-md-12 section">
-          <div id="Coreteam" class="scroll-section row">
-            <div class = "col-xs-12 no-margin center-green-column coreteam"> Coreteam </div>
+        <section id="#core" class="col-md-12 scroll-section">
+          <div class="row">
+            <div class = "col-xs-12 no-margin center-green-column"> Coreteam </div>
           </div>
         </section>
-        <section class="col-md-12 section">
-          <div id="Contacts" class="scroll-section row">
-            <div class = "col-xs-12 no-margin center-white-column contacts"> Contacts </div>
+        <section id="#cont" class="col-md-12 scroll-section">
+          <div class="row">
+            <div class = "col-xs-12 no-margin center-white-column"> Contacts </div>
           </div>
         </section>
         <footer>
-          <section class="col-md-12 section" style="height: 100vh">
-            <div id="Footer" class="scroll-section row">
-              <div class = "col-xs-12 no-margin center-green-column coreteam"> Footer </div>
+          <section id="#footer" class="col-md-12 scroll-section" style="height: 100vh">
+            <div class="row">
+              <div class = "col-xs-12 no-margin center-green-column"> Footer </div>
             </div>
           </section>
         </footer>
       </div>
 
-      <!--Main JS file-->
-      <script src="js/index.js"></script>
-
-      <!--Fullpage scrolling-->
-      <script src="js/Scrolling/jquery.easings.min.js"></script>
-      <script src="js/Scrolling/scrolloverflow.min.js"></script>
-      <script src="js/Scrolling/jquery.fullPage.min.js"></script>
+      <!--Side indicators of scrolling-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+      <script src="https://cdn.rawgit.com/imakewebthings/waypoints/4.0.0/lib/noframework.waypoints.min.js"></script>
+      <script src="https://cdn.rawgit.com/mruoss/jquery-scroll-indicator-bullets/2.0.0/dist/jquery.scrollindicatorbullets.min.js"></script>
 
     </body>
 </html>
