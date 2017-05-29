@@ -130,10 +130,10 @@ padding-left: 0;
   right: 0;
 }
 .strips__strip:nth-child(2) {
-  right: 16.5vw;
+  right: 33.33%;
 }
 .strips__strip:nth-child(1) {
-  right: 33vw;
+  right: 66.66%;
 }
 
 
