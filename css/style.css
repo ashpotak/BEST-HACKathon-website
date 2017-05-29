@@ -50,7 +50,7 @@ div{
 }
 
 .center-white-column{
-  background-color: #FFF;
+  background: #FFF ;
   height: 100vh;
   display: table;
 }
@@ -109,4 +109,27 @@ padding-left: 0;
   min-width: 200px;
   background: #203c48 url(http://hello-site.ru//main/images/preloads/ball-triangle.svg) center center no-repeat;
   background-size:109px;
+}
+
+.reg_pic{
+  display: block;
+  max-height: 100vh;
+  width: 100%;
+  background-size: 120%;
+  z-index:2;
+}
+
+.reg_button{
+  display: block;
+  position: relative;
+  left: 85vh;
+  top: 60vh;
+  z-index:auto;
+}
+
+.regist_foot{
+  position: relative;
+  display: block;
+  max-width: 98vh;
+  width: 100%;
 }
