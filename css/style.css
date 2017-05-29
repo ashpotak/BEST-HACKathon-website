@@ -111,7 +111,6 @@ padding-left: 0;
   background-size:109px;
 }
 
-<<<<<<< HEAD
 .reg_pic{
   display: block;
   max-height: 100vh;
@@ -134,7 +133,7 @@ padding-left: 0;
   max-width: 98vh;
   width: 100%;
 }
-=======
+
 .strips {
   min-height: 100vh;
   text-align: center;
@@ -201,12 +200,12 @@ padding-left: 0;
     width: 100%;
   }
   .strips__strip:nth-child(2) {
-    top: 33.33vh;
+    top: 33.33%;
     left: 0;
     width: 100%;
   }
   .strips__strip:nth-child(3) {
-    top: 67vh;
+    top: 66.66%;
     left: 0;
     width: 100%;
   }
