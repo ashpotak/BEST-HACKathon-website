@@ -34,11 +34,9 @@
       });
     });
 
-<<<<<<< HEAD
- //hellopreloader
-=======
+
  //hello preloader
->>>>>>> parent of 9679037... aa
+
  var hellopreloader = document.getElementById("hellopreloader_preload");
  function fadeOutnojquery(el){
    el.style.opacity = 1;
@@ -110,9 +108,6 @@
   Expand.init();
 
   //expanding dialogs about categories
-<<<<<<< HEAD
-=======
-
 
   //opening menu
   document.querySelector( "#nav-toggle" )
@@ -120,4 +115,3 @@
       this.classList.toggle( "active" );
       menu.classList.toggle( "active" );
     });
->>>>>>> parent of 9679037... aa

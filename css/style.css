@@ -111,8 +111,6 @@ padding-left: 0;
   background-size:109px;
 }
 
-<<<<<<< HEAD
-=======
 #menu{
   z-index: -9;
   width: 100%;
@@ -187,7 +185,7 @@ padding-left: 0;
   transform: rotate(-45deg);
 }
 
->>>>>>> parent of 9679037... aa
+
 .reg_pic{
   display: block;
   max-height: 100vh;
@@ -211,7 +209,6 @@ padding-left: 0;
   width: 100%;
 }
 
-<<<<<<< HEAD
 .galery_bg{
   position: relative;
   display: block;
@@ -219,8 +216,7 @@ padding-left: 0;
   width: 90%;
  }
 
-=======
->>>>>>> parent of 9679037... aa
+
 .strips {
   min-height: 100vh;
   text-align: center;
@@ -499,4 +495,3 @@ h2 {
 p {
   margin: 0 0 16px;
 }
->>>>>>> refs/remotes/origin/master
