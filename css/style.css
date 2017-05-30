@@ -33,13 +33,13 @@ div{
 
 .right-side-column{
   height: 100vh;
-  background-color: #203c48;
+  background-color: #253e49;
   display: table;
 }
 
 .left-side-column_1{
   height: 100vh;
-  background-color: #203c48;
+  background-color: #253e49;
   display: table;
 }
 
@@ -56,7 +56,7 @@ div{
 }
 
 .center-green-column{
-  background-color: #203c48;
+  background-color: #253e49;
   height: 100vh;
   display: table;
 }
@@ -107,7 +107,7 @@ padding-left: 0;
   width: 100%;
   height: 100%;
   min-width: 200px;
-  background: #203c48 url(http://hello-site.ru//main/images/preloads/ball-triangle.svg) center center no-repeat;
+  background: #253e49 url(http://hello-site.ru//main/images/preloads/ball-triangle.svg) center center no-repeat;
   background-size:109px;
 }
 
@@ -132,4 +132,30 @@ padding-left: 0;
   display: block;
   max-width: 98vh;
   width: 100%;
+  background-size: cover;
+}
+
+.schedule{
+  display: block;
+  position: relative;
+  background-size: contain;
+  width: 100%;
+  z-index: 0;
+}
+
+.galery_bg{
+  display: block;
+  position: relative;
+  background-size: cover;
+  bottom: 90%;
+  width: 100%;
+  z-index: 0;
+}
+
+.galery_button{
+  display: block;
+  position: relative;
+  left: 24vh;
+  top: -20vh;
+  z-index: 2;
 }
