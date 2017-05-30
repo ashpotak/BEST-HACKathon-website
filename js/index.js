@@ -34,7 +34,7 @@
       });
     });
 
- //hello preloader
+ //hellopreloader
  var hellopreloader = document.getElementById("hellopreloader_preload");
  function fadeOutnojquery(el){
    el.style.opacity = 1;
@@ -106,11 +106,3 @@
   Expand.init();
 
   //expanding dialogs about categories
-
-
-  //opening menu
-  document.querySelector( "#nav-toggle" )
-    .addEventListener( "click", function() {
-      this.classList.toggle( "active" );
-      menu.classList.toggle( "active" );
-    });
