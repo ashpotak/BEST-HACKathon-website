@@ -7,10 +7,13 @@
       <!--Styles-->
      <link rel = "stylesheet" type = "text/css" href = "css/style.css">
      <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/mruoss/jquery-scroll-indicator-bullets/2.0.0/dist/jquery.scrollindicatorbullets.css" media="screen">
+     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 
     <!--Scripts-->
      <!--JQuery:         -->
       <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+     <!--Ajax:         -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
      <!--Bootstrap:
            Latest compiled and minified CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -33,7 +36,40 @@
         <section>
           <div id="#sec" class="row scroll-section no-margin">
             <div id="#do_you" class = "col-xs-12 col-sm-6 no-margin left-side-column_1"> Do you know </div>
-            <div id="#categ" class = "col-xs-12 col-sm-6 no-margin right-side-column_1">Categories</div>
+            <div id="#categ" class = "col-xs-12 col-sm-6 no-margin right-side-column_1">
+              <section class="strips">
+              <article class="strips__strip">
+                <div class="strip__content">
+                  <h1 class="strip__title" data-name="Ipsum">Game</h1>
+                  <div class="strip__inner-text">
+                    <h2>PC Game</h2>
+                    <p>Категорія, у якій перед учасниками стоїть завдання створити комп’ютерну гру для пк. Для цього вони можуть використовувати будь-які інструменти, засоби та методи. Єдиною умовою є те, щоб у грі були задіяні слова, які кожна команда отримає випадковим чином безпосередньо перед початком визаченого часу.
+                    </p>
+                  </div>
+                </div>
+              </article>
+              <article class="strips__strip">
+                <div class="strip__content">
+                  <h1 class="strip__title" data-name="Dolor">Mobile</h1>
+                  <div class="strip__inner-text">
+                    <h2>Mobile application</h2>
+                    <p>У цій категорії учасники створюють додаток на смартфон. Випадковим чином їм надається галузь (наприклад транспорт, освіта, медицина і т.д.), яку вони повинні покращити своїм додатком. Тут на передній план виходить практичне застосування готової роботи, але й не потрібно забувати про гарний інтерфейс.</p>
+                  </div>
+                </div>
+              </article>
+              <article class="strips__strip">
+                <div class="strip__content">
+                  <h1 class="strip__title" data-name="Sit">Web</h1>
+                  <div class="strip__inner-text">
+                    <h2>Web-service</h2>
+                    <p>Категорія, де учасники створюватимуть онлайн-сервіс на одну з актуальних тем (наприклад е-голосування, хмарні технлогоії, чат-боти і т.д.). Одними з головних вимог до проектів буде їхня зручність та ефективність.
+                    </p>
+                  </div>
+                </div>
+              </article>
+              <i class="fa fa-close strip__close">x</i>
+            </section>
+            </div>
           </div>
         </section>
         <section id="#reg" class="scroll-section">
@@ -91,6 +127,6 @@
 
       <!--Main JS file-->
       <script src="js/index.js"></script>
-      
+
     </body>
 </html>
