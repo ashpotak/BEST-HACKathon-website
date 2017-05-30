@@ -208,6 +208,13 @@ padding-left: 0;
   width: 100%;
 }
 
+.galery_bg{
+  position: relative;
+  display: block;
+  background-size: cover;
+  width: 90%;
+ }
+
 .strips {
   min-height: 100vh;
   text-align: center;
