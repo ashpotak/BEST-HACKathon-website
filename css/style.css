@@ -117,6 +117,81 @@ padding-left: 0;
   background-size:109px;
 }
 
+#menu{
+  z-index: -9;
+  width: 100%;
+  position: absolute;
+  top: 0vh;
+  background-color: white;
+  transition: all 50000ms ease-in-out;
+}
+
+#menu.active {
+  z-index: 9;
+  background-color: #203c48;
+}
+
+#nav-toggle {
+   position: absolute;
+   width: 50px;
+   height: 50px;
+   top: 30px;
+   right: 15.5px;
+   z-index: 99;
+  }
+
+#circle {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  position: absolute;
+  top: 16px;
+  right: 25px;
+  z-index: 98;
+  border-radius: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+}
+
+#nav-toggle {
+  cursor: pointer;
+  padding: 10px 35px 16px 0px;
+ }
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 2px;
+  width: 30px;
+  background: black;
+  position: absolute;
+  display: block;
+  content: '';
+}
+#nav-toggle span:before {
+  top: -10px;
+}
+#nav-toggle span:after {
+  bottom: -10px;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  transition: all 500ms ease-in-out;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+
+
 .reg_pic{
   display: block;
   max-height: 100vh;
@@ -139,17 +214,15 @@ padding-left: 0;
   display: block;
   max-width: 98vh;
   width: 100%;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+
   background-size: cover;
->>>>>>> f99a87fc5e27d1512e2ea6f3c907c5eff4027f6b
+
 }
 
 .schedule{
   display: block;
   position: relative;
-<<<<<<< HEAD
+
   background-size: cover;
   width: 100%;
 }
@@ -205,6 +278,14 @@ padding-left: 0;
 }
 =======
 }
+
+.galery_bg{
+  position: relative;
+  display: block;
+  background-size: cover;
+  width: 90%;
+ }
+
 
 .strips {
   min-height: 100vh;
@@ -484,6 +565,4 @@ h2 {
 p {
   margin: 0 0 16px;
 }
->>>>>>> refs/remotes/origin/master
->>>>>>> 374d0948a3faeccaab1631ec4538c9627c71743a
->>>>>>> f99a87fc5e27d1512e2ea6f3c907c5eff4027f6b
+
