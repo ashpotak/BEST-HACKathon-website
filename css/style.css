@@ -239,7 +239,7 @@ padding-left: 0;
 }
 
 .partners_2{
-  display: inline-block;  
+  display: inline-block;
   width: auto;
   height:auto;
   margin: 30px 50px 30px 60px;
@@ -276,7 +276,7 @@ padding-left: 0;
   top: -20vh;
   z-index: 2;
 }
-=======
+
 }
 
 .galery_bg{
@@ -565,4 +565,3 @@ h2 {
 p {
   margin: 0 0 16px;
 }
-
