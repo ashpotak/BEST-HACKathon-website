@@ -172,7 +172,11 @@ padding-left: 0;
   margin: 30px 50px 30px 60px;
 }
 
-/* Допрацювати з масштабування в тел. версії*/
+.schedule{
+  text-align: left;
+  color: #3baf0b;
+}
+
 .team_bottom{
   position: absolute;
   bottom: 0;
