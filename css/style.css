@@ -9,7 +9,6 @@ a {
     text-decoration: underline; }
 
 section {
-
     overflow: hidden;
     display: block;
 }
@@ -56,7 +55,7 @@ div{
 }
 
 .center-black-column{
-  background: #000 ;
+  background: #0001 ;
   height: 100vh;
   display: table;
 }
@@ -191,41 +190,68 @@ padding-left: 0;
   transform: rotate(-45deg);
 }
 
-
-.reg_pic{
-  display: block;
-  max-height: 100vh;
-  width: 100%;
-  background-size: 120%;
-  z-index: 1;
+#gal {
+  text-align: center;
 }
 
-.regist_but{
-  display: block;
-  position: absolute;
-  left: 41%;
-  top: 50%;
-  width: auto;
-  height:auto;
+.gal_button h1{
+  display:inline;
+  background-color: #253e49;
+  padding: 15px 45px;
+  border-radius: 15px;
+  color: white;
+  font-family: 'hooge05_55Cyr2';
+  font-size: 50pt;
+  margin: 20px auto;
 }
 
-.regist_foot{
-  position: relative;
-  display: block;
-  max-width: 98vh;
-  width: 100%;
+.pict {
+  width: 90%;
+  margin: 5% auto;
+  text-align: center;
+}
 
-  background-size: cover;
-
+.pict img {
+  height: 70vh;
 }
 
 .schedule{
   display: block;
-  position: relative;
-
-  background-size: cover;
-  width: 100%;
+  margin: 10% 10% 10% 5%;
+  text-align: left;
+  font-family: 'hooge05_55Cyr2';
 }
+
+.schedule h1 {
+  color: #8eadad;
+  font-size: 35pt;
+}
+
+.schedule h2 {
+  color: #3baf0b;
+  font-size: 30pt;
+}
+
+.schedule h3 {
+  color: #8eadad  ;
+  font-family: 'Play';
+  font-size: 20pt;
+}
+
+@media screen and (max-device-width: 1024px){
+  .schedule h1 {
+    font-size: 30pt;
+  }
+
+  .schedule h2 {
+    font-size: 25pt;
+  }
+
+  .schedule h3 {
+    font-size: 15pt;
+  }
+}
+
 
 .partners{
   position:relative;
@@ -245,21 +271,6 @@ padding-left: 0;
   margin: 30px 50px 30px 60px;
 }
 
-.schedule{
-  text-align: left;
-  color: #3baf0b;
-}
-
-.team_bottom{
-  position: absolute;
-  bottom: 0;
-}
-=======
-  background-size: contain;
-  width: 100%;
-  z-index: 0;
-}
-
 .galery_bg{
   display: block;
   position: relative;
@@ -277,7 +288,7 @@ padding-left: 0;
   z-index: 2;
 }
 
-}
+
 
 .galery_bg{
   position: relative;
@@ -564,4 +575,82 @@ h2 {
 
 p {
   margin: 0 0 16px;
+}
+
+#textbox {
+  text-align: center;
+}
+
+#textbox h2 {
+  font-size: 45pt;
+  font-family: 'hooge05_55Cyr2';
+  color: #8eadad;
+  margin: auto;
+  padding: 47px;
+}
+
+@media screen and (min-device-width: 1400px) {
+   #textbox h2 {
+     display: none;
+   }
+
+}
+
+@media screen and (max-device-width: 1024px){
+  #textbox h2 {
+    font-size: 30pt;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-device-width: 768px){
+  #textbox h2 {
+    font-size: 40pt;
+    padding: 30px;
+  }
+}
+
+#facebox {
+  width: 100%;
+  background-color: #717775;
+  position: relative;
+  bottom: auto;
+}
+
+#all {
+  position: relative;
+  bottom: 0px;
+}
+
+
+#lew {
+  height: auto;
+  width: 40%;
+  float: left;
+}
+
+#dasha, #sasha, #aida, #chudia, #andr, #oleh {
+  width: 20%;
+  float: left;
+}
+
+@media screen and (max-device-width: 425px){
+  #textbox h2 {
+    font-size: 20pt;
+    padding: 10px;
+  }
+
+  #lew {
+    width: 100%;
+  }
+
+  #dasha, #sasha, #aida, #chudia, #andr, #oleh {
+    width: 50%;
+  }
+}
+
+#hov {
+  position: relative;
+  top: 0px;
+  left: 0px;
 }

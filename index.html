@@ -8,6 +8,8 @@
      <link rel = "stylesheet" type = "text/css" href = "css/style.css">
      <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/mruoss/jquery-scroll-indicator-bullets/2.0.0/dist/jquery.scrollindicatorbullets.css" media="screen">
      <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+     <link rel="stylesheet" href="fonts/styles.css">
 
     <!--Scripts-->
      <!--JQuery:         -->
@@ -29,7 +31,7 @@
     <a id="nav-toggle" href="#"><span></span></a>
     <span id="circle" href="#"></span>
     <div id="menu" class="row no-margin">
-      <div class = "col-xs-12 no-margin center-green-column"> Menu </div>
+      <div class = "col-xs-12 no-margin center-green-column"> <h1>Menu</h1></div>
     </div>
       <div class="container-fluid" style="padding: 0px;">
         <section>
@@ -80,34 +82,38 @@
 
         <section id="#reg" class="scroll-section">
           <div class="row no-margin">
-            <div class = "col-xs-12 no-margin center-white-column">
-            	<img src="images/body.png" class="reg_pic">
-            </div>
+            <div class = "col-xs-12 no-margin center-white-column"></div>
           </div>
         </section>
 
         <section>
           <div id="#gallery" class="row scroll-section no-margin">
-            <div id="#gal" class = "col-sm-6 col-xs-12 no-margin left-side-column">
-          </div>
+            <div id="gal" class = "col-sm-6 col-xs-12 no-margin left-side-column">
+              <div class="pict">
+                <img src="images/blocks/galler.png" alt="">
+              </div>
+              <div class="gal_button"><h1>ГАЛЕРЕЯ</h1></div>
+            </div>
 
-          <div id="#sched" class = "col-sm-6 col-xs-12 no-margin right-side-column">
-            <div class="schedule"> <h1>РОЗКЛАД</h1>
-            <h2>7 жовтня</h2>
-            <h3>10:00 - 11:00 представлення партнерів</h3>
-            <h3>11:00 - 12:00 початок змагань</h3>
-            <h3>15:00 - 16:00 обід</h3>
-            <h3>21:00 - 22:00 вечеря</h3>
-            <h2>8 жовтня</h2>
-            <h3>8:00 - 9:00 сніданок</h3>
-            <h3>12:00 презентації команд</h3> </div>
-          </div>
+            <div id="#sched" class = "col-sm-6 col-xs-12 no-margin right-side-column">
+              <div class="schedule">
+              <h1>РОЗКЛАД</h1>
+              <h2>7 жовтня</h2>
+              <h3>10:00 - 11:00 представлення партнерів</h3>
+              <h3>11:00 - 12:00 початок змагань</h3>
+              <h3>15:00 - 16:00 обід</h3>
+              <h3>21:00 - 22:00 вечеря</h3>
+              <h2>8 жовтня</h2>
+              <h3>8:00 - 9:00 сніданок</h3>
+              <h3>12:00 презентації команд</h3> </div>
+            </div>
+        </div>
         </section>
 
         <section id="#partn" class="scroll-section">
           <div class="row no-margin">
             <div class = "col-xs-12 no-margin center-black-column">
-            	<center><img src="images/partners/partners.png"></center>
+              <div id="textbox" class="no-margin"><h2>НАС ПІДТРИМУВАЛИ</h2></div>
             	<div class="partners">
             	<center>
             	<img src="images/partners/dataart.png" alt="Data Art" class="partners_1">
@@ -128,28 +134,35 @@
             </div>
           </div>
         </section>
+
         <section id="#mentrs" class="scroll-section">
           <div class="row no-margin">
             <div class = "col-xs-12 no-margin center-white-column"> Our mentors</div>
           </div>
         </section>
+
         <section id="#core" class="scroll-section">
           <div class="row no-margin">
-            <div class = "col-xs-12 no-margin center-green-column"> Coreteam </div>
+            <div class = "col-xs-12 no-margin center-green-column">
+              <div id="textbox" class="no-margin"><h2>КОМАНДА BEST::HACKATHON 2017</h2></div>
+              <div id="facebox" class="row no-margin">
+                  <div><img id="lew" src="images/team/lew.png" alt=""></div>
+                  <div><img id="dasha" src="images/team/dasha.png" alt=""></div>
+                  <div><img id="sasha" src="images/team/sasha.png" alt=""></div>
+                  <div><img id="aida" src="images/team/aida.png" alt=""></div>
+                  <div><img id="chudia" src="images/team/chudia.png" alt=""></div>
+                  <div><img id="andr" src="images/team/andr.png" alt=""></div>
+                  <div><img id="oleh" src="images/team/oleh.png" alt=""></div>
+              </div>
+            </div>
           </div>
         </section>
+
         <section id="#cont" class="scroll-section">
           <div class="row no-margin">
-            <div class = "col-xs-12 no-margin center-white-column"> Contacts </div>
+            <div class = "col-xs-12 no-margin center-green-column"> Contacts </div>
           </div>
         </section>
-        <footer>
-          <section id="#footer" class="scroll-section" style="height: 100vh">
-            <div class="row no-margin">
-              <div class = "col-xs-12 no-margin center-green-column"> Footer </div>
-            </div>
-          </section>
-        </footer>
       </div>
 
       <!--side indicators of scrolling-->
