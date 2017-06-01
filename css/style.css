@@ -248,44 +248,42 @@ padding-left: 0;
 .schedule{
   text-align: left;
   color: #3baf0b;
+  padding-left: 15vh;
+  top: 10vh;
 }
 
-.team_bottom{
+.girl {
   position: absolute;
-  bottom: 0;
-}
-=======
-  background-size: contain;
-  width: 100%;
-  z-index: 0;
-}
-
-.galery_bg{
-  display: block;
-  position: relative;
-  background-size: cover;
-  bottom: 90%;
-  width: 100%;
-  z-index: 0;
+  width: 350px;
+  left:130px;
+  top: 70px;
 }
 
 .galery_button{
-  display: block;
-  position: relative;
-  left: 24vh;
-  top: -20vh;
-  z-index: 2;
+  display:block;
+  position:relative;
+  bottom: -480px;
+  right: 145px;
 }
 
+.button {
+  position:relative;
+  text-decoration:none;
+  font-weight: bold;
+  color: #FFFFFF !important;
+  font-size: 19px;
+  padding: 9px 29px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 2px dotted #253E49;
+  background: #253E49;
 }
-
-.galery_bg{
-  position: relative;
-  display: block;
-  background-size: cover;
-  width: 90%;
- }
-
+.button:hover {
+  color: #FFFFFF !important;
+  background: #3BAF0B;
+  text-decoration:none;
+}
 
 .strips {
   min-height: 100vh;
