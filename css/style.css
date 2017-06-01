@@ -49,10 +49,14 @@ div{
   display: table;
 }
 
-.center-white-column{
-  background: #FFF ;
+.center-green-column{
+  background: #253e49 ;
   height: 100vh;
   display: table;
+  text-align: center;
+  color: #8faeae;
+  margin: none;
+
 }
 
 .center-black-column{
@@ -564,4 +568,23 @@ h2 {
 
 p {
   margin: 0 0 16px;
+}
+
+.mentors{
+  display: inline; 
+  position: relative;
+  float: left;
+  width: 69vh;
+}  
+
+ .mentors_1{
+  display: inline-block;
+  position: relative;
+  float: right;
+}
+  
+ .mentors_2{
+  display: inline-block;
+  position: relative;
+  float: right;
 }
