@@ -1041,26 +1041,26 @@ p {
 	display: inline-block;
 	font-weight: 100;
 	text-align: center;
-	font-size: 30px;
+	font-size: 100pt;
 }
 
 #clockdiv > div{
 	padding: 10px;
 	border-radius: 3px;
-	background: #00BF96;
+	background: #3BAF0B ;
 	display: inline-block;
 }
 
 #clockdiv div > span{
 	padding: 15px;
 	border-radius: 3px;
-	background: #00816A;
+	background: #426466;
 	display: inline-block;
 }
 
 .smalltext{
 	padding-top: 5px;
-	font-size: 16px;
+	font-size: 30pt;
 }
 
 #reg {
