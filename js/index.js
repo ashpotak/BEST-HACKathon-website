@@ -132,7 +132,7 @@
     $(document).ready(function(){
   	$("#body").on("click","a", function (event) {
   		//отменяем стандартную обработку нажатия по ссылке
-  		event.preventDefault();
+  		
 
   		//забираем идентификатор бока с атрибута href
   		var id  = $(this).attr('href'),
@@ -186,3 +186,51 @@
 
   var deadline = new Date(Date.parse(new Date()) + 87 * 24 * 60 * 60 * 1000);
   initializeClock('clockdiv', deadline);
+
+  if ($(window).width() < 768) {
+    $("#second_button").removeClass("hide");
+  }else{
+    $("#for_partr").removeClass("hide");
+ }
+ 
+$(window).on("resize",function(){ 
+  if ($(window).width() < 768) {
+    $("#second_button").removeClass("hide");
+  }else{
+    $("#for_partr").removeClass("hide");
+ }
+});
+
+/*
+ * windowSize
+ * call this function to get windowSize any time
+ */
+function windowSize() {
+  windowHeight = window.innerHeight ? window.innerHeight : $(window).height();
+  windowWidth = window.innerWidth ? window.innerWidth : $(window).width();
+
+}
+
+//Init Function of init it wherever you like...
+windowSize();
+
+// For example, get window size on window resize
+$(window).load(function() {
+  windowSize();
+  if (windowWidth < 768) {
+   $("#second_button").removeClass("hide");
+  }else{
+    $("#rightcol").removeClass("hide");
+  }
+});
+
+$(window).resize(function() {
+  windowSize();
+  if (windowWidth < 768) {
+    $("#second_button").removeClass("hide");
+    $("#rightcol").addClass("hide");
+  }else{
+    $("#rightcol").removeClass("hide");
+    $("#second_button").addClass("hide");
+  }
+});

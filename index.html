@@ -28,35 +28,38 @@
 
     </head>
     <body id="body">
-    <div id="hellopreloader"><div id="hellopreloader_preload"></div></div>
-    <a href="#" id="scrollToTop" class="js-scroll-to-top">⇡</a>
-    <a id="nav-toggle" href="#"><span></span></a>
+    <div id="hellopreloader"><div id="hellopreloader_preload" style="opacity: 0.05; display: none;"></div></div>
+    <a href="http://hack.best-lviv.org.ua/#" id="scrollToTop" class="js-scroll-to-top" style="display: none;">⇡</a>
+    <a id="nav-toggle" href="http://hack.best-lviv.org.ua/#" class=""><span></span></a>
     <span id="circle" href="#"></span>
     <div id="menu" class="row no-margin">
-      <div class = "col-xs-12 no-margin center-green-column">
+      <div class="col-xs-12 no-margin center-green-column">
         <img id="benia" src="images/blocks/benia.png" alt="">
         <div class="targets">
-          <a href="#sec"><h2><i class="fa fa-arrow-right" aria-hidden="true"></i> ПРО ХАКАТОН</h2></a>
-          <a href="#reg"><h2><i class="fa fa-arrow-right" aria-hidden="true"></i> РЕЄСТРАЦІЯ</h2></a>
-          <a href="#gallery"><h2><i class="fa fa-arrow-right" aria-hidden="true"></i> ФОТО</h2></a>
-          <a href="#partn"><h2><i class="fa fa-arrow-right" aria-hidden="true"></i> ПАРТНЕРИ</h2></a>
-          <a href="#mentrs"><h2><i class="fa fa-arrow-right" aria-hidden="true"></i> МЕНТОРИ</h2></a>
-          <a href="#core"><h2><i class="fa fa-arrow-right" aria-hidden="true"></i> КОМАНДА</h2></a>
-          <a href="#cont"><h2><i class="fa fa-arrow-right" aria-hidden="true"></i> КОНТАКТИ</h2></a>
+          <ul>
+          <li><a href="http://hack.best-lviv.org.ua/#sec">ПРО ХАКАТОН</a></li>
+          <li><a href="http://hack.best-lviv.org.ua/#reg">РЕЄСТРАЦІЯ</a></li>
+          <li><a href="http://hack.best-lviv.org.ua/#gallery">ФОТО</a></li>
+          <li><a href="http://hack.best-lviv.org.ua/#partn">ПАРТНЕРИ</a></li>
+          <!--<li><a href="http://hack.best-lviv.org.ua/#mentrs">МЕНТОРИ</a></li>-->
+          <li><a href="http://hack.best-lviv.org.ua/#core">КОМАНДА</a></li>
+          <li><a href="http://hack.best-lviv.org.ua/#cont">КОНТАКТИ</a></li>
+          </ul>
         </div>
       </div>
     </div>
       <div class="container-fluid" style="padding: 0px;">
         <section>
           <div id="top" class="row scroll-section no-margin">
-            <div id="#for_partn" class = "col-xs-12 col-sm-6 no-margin left-side-column">
-            </div>
-            <div id="#for_partr" class = "col-xs-12 col-sm-6 no-margin right-side-column"> for participants </div>
-          </div>
+              <h1>BEST::HACKathon</h1>
+            <div id="#for_partn" class="col-xs-12 col-sm-6 no-margin left-side-column text-center"><a class="button top_btn" href="http://hack.best-lviv.org.ua/console" target="_self
+  ">Geek version</a><div id="second_button" class="hide"><br><br><a class="button top_btn" href="http://hack.best-lviv.org.ua/#sec">Slide down</a></div></div>
+            <span id="rightcol" class=""><div id="#for_partr" class="col-xs-12 col-sm-6 no-margin right-side-column text-center"><a class="button top_btn1" href="http://hack.best-lviv.org.ua/#sec">Slide down</a></div>
+          </span></div>
         </section>
         <section>
           <div id="sec" class="row scroll-section no-margin">
-            <div id="#do_you" class = "col-xs-12 col-sm-6 no-margin left-side-column_1">
+            <div id="#do_you" class="col-xs-12 col-sm-6 no-margin left-side-column_1">
               <div class="window">
                 <div class="bar">
                   <p>BEST HACKATHON</p>
@@ -73,7 +76,7 @@
                   </div>
                   <div id="ifyes">
                     <h2>BEST</h2><h3>HACKATHON</h3><h4>7-9 ЖОВТНЯ 2017</h4>
-                    <a href="#sched"><div class="button sched">РОЗКЛАД</div></a>
+                    <a href="http://hack.best-lviv.org.ua/#sched"><div class="button sched">РОЗКЛАД</div></a>
                   </div>
                   <div id="question">
                     <div class="text">
@@ -86,14 +89,14 @@
                 </div>
               </div>
             </div>
-            <div id="#categ" class = "col-xs-12 col-sm-6 no-margin right-side-column_1">
+            <div id="#categ" class="col-xs-12 col-sm-6 no-margin right-side-column_1">
               <section class="strips">
               <article class="strips__strip">
                 <div class="strip__content">
                   <h1 class="strip__title" data-name="Ipsum">Game</h1>
-                  <div class="strip__inner-text">
+                  <div class="strip__inner-text" style="transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0.3s;">
                     <img src="images/columns/pc.png" alt="">
-                    <h2>PC Game</h2>
+                    <h2></h2>
                     <p>Категорія, у якій перед учасниками стоїть завдання створити комп’ютерну гру для пк. Для цього вони можуть використовувати будь-які інструменти, засоби та методи. Єдиною умовою є те, щоб у грі були задіяні слова, які кожна команда отримає випадковим чином безпосередньо перед початком визаченого часу.
                     </p>
                   </div>
@@ -102,9 +105,9 @@
               <article class="strips__strip">
                 <div class="strip__content">
                   <h1 class="strip__title" data-name="Dolor">Mobile</h1>
-                  <div class="strip__inner-text">
+                  <div class="strip__inner-text" style="transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0.3s;">
                     <img src="images/columns/app.png" alt="">
-                    <h2>Mobile application</h2>
+                    <h2></h2>
                     <p>У цій категорії учасники створюють додаток на смартфон. Випадковим чином їм надається галузь (наприклад транспорт, освіта, медицина і т.д.), яку вони повинні покращити своїм додатком. Тут на передній план виходить практичне застосування готової роботи, але й не потрібно забувати про гарний інтерфейс.</p>
                   </div>
                 </div>
@@ -112,15 +115,15 @@
               <article class="strips__strip">
                 <div class="strip__content">
                   <h1 class="strip__title" data-name="Sit">Web</h1>
-                  <div class="strip__inner-text">
+                  <div class="strip__inner-text" style="transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0.3s;">
                     <img src="images/columns/web.png" alt="">
-                    <h2>Web-service</h2>
+                    <h2></h2>
                     <p>Категорія, де учасники створюватимуть онлайн-сервіс на одну з актуальних тем (наприклад е-голосування, хмарні технлогоії, чат-боти і т.д.). Одними з головних вимог до проектів буде їхня зручність та ефективність.
                     </p>
                   </div>
                 </div>
               </article>
-              <h1><i class="fa fa-times-circle strip__close"></i></h1>
+              <h1><i class="fa fa-times-circle strip__close" style="transition: all 0.2s cubic-bezier(0.23, 1, 0.32, 1) 0s;"></i></h1>
             </section>
             </div>
           </div>
@@ -128,23 +131,23 @@
 
         <section id="reg" class="scroll-section">
           <div class="row no-margin">
-            <div class = "col-xs-12 no-margin center-green-column">
+            <div class="col-xs-12 no-margin center-green-column">
               <div id="textbox" class="no-margin"><h2>ДО ПОЧАТКУ РЕЄСТРАЦІЇ</h2></div>
               <div id="clockdiv">
                 <div>
-                  <span class="days"></span>
+                  <span class="days">86</span>
                   <div class="smalltext">Днів</div>
                 </div>
                 <div>
-                  <span class="hours"></span>
+                  <span class="hours">23</span>
                   <div class="smalltext">Годин</div>
                 </div>
                 <div>
-                  <span class="minutes"></span>
+                  <span class="minutes">06</span>
                   <div class="smalltext">Хвилин</div>
                 </div>
                 <div>
-                  <span class="seconds"></span>
+                  <span class="seconds">33</span>
                   <div class="smalltext">Секунд</div>
                 </div>
               </div>
@@ -154,14 +157,14 @@
 
         <section>
           <div id="gallery" class="row scroll-section no-margin">
-            <div id="gal" class = "col-sm-6 col-xs-12 no-margin left-side-column">
+            <div id="gal" class="col-sm-6 col-xs-12 no-margin left-side-column">
               <div class="pict">
                 <img src="images/blocks/galler.png" alt="">
               </div>
-              <div class="button gal_button"><h1>ГАЛЕРЕЯ</h1></div>
+              <div class="button gal_button"><a href="https://www.flickr.com/photos/best_lviv/albums/72157668244164751" target="_blank">ГАЛЕРЕЯ</a></div>
             </div>
 
-            <div id="sched" class = "col-sm-6 col-xs-12 no-margin right-side-column">
+            <div id="sched" class="col-sm-6 col-xs-12 no-margin right-side-column">
               <div class="schedule">
               <h1>РОЗКЛАД</h1>
               <h2>7 жовтня</h2>
@@ -178,25 +181,26 @@
 
         <section id="partn" class="scroll-section">
           <div class="row no-margin">
-            <div class = "col-xs-12 no-margin center-black-column">
+            <div class="col-xs-12 no-margin center-black-column">
               <div id="textbox" class="no-margin"><h2>НАС   ПІДТРИМУВАЛИ</h2></div>
-            	<div class="partners">
-            	<center>
-            	<img src="images/partners/dataart.png" alt="Data Art" class="partners_1">
-            	<img src="images/partners/elex.png" alt="Elex" class="partners_1">
-            	<img src="images/partners/softserve.png" alt="Soft Serve" class="partners_1">
-            	<img src="images/partners/epam.png" alt="Epam" class="partners_1">
-            	</center>
-            	</div>
-            	<div class="partners">
-            	<center>
-            	<img src="images/partners/abto.png" alt="Abto" class="partners_2">
-            	<img src="images/partners/gameloft.png" alt="Game Loft" class="partners_2">
-            	<img src="images/partners/jandex.png" alt="Jandex" class="partners_2">
-            	<img src="images/partners/ubisoft.png" alt="Ubisoft" class="partners_2">
-            	<img src="images/partners/GL.png" alt="Global Logic" class="partners_2">
-            	</center>
+              <div class="partners">
+              <center>
+              <img src="images/partners/dataart.png" alt="Data Art" class="partners_1">
+              <img src="images/partners/elex.png" alt="Elex" class="partners_1">
+              <img src="images/partners/softserve.png" alt="Soft Serve" class="partners_1">
+              <img src="images/partners/epam.png" alt="Epam" class="partners_1">
+              </center>
               </div>
+              <div class="partners">
+              <center>
+              <img src="images/partners/abto.png" alt="Abto" class="partners_2">
+              <img src="images/partners/gameloft.png" alt="Game Loft" class="partners_2">
+              <img src="images/partners/jandex.png" alt="Jandex" class="partners_2">
+              <img src="images/partners/ubisoft.png" alt="Ubisoft" class="partners_2">
+              <img src="images/partners/GL.png" alt="Global Logic" class="partners_2">
+              </center>
+              </div>
+              <center style="margin: 20px;"><div class="button partn_button"><a href="http://hack.best-lviv.org.ua/#cont">СТАТИ ПАРТНЕРОМ</a></div></center>
             </div>
           </div>
         </section>
@@ -209,7 +213,7 @@
 
         <section id="core" class="scroll-section">
           <div class="row no-margin">
-            <div class = "col-xs-12 no-margin center-green-column">
+            <div class="col-xs-12 no-margin center-green-column">
               <div id="textbox" class="no-margin"><h2>КОМАНДА  BEST::HACKATHON  2017</h2></div>
               <div id="facebox" class="row no-margin">
                   <div><img id="lew" src="images/team/lew.png" alt=""></div>
@@ -226,7 +230,7 @@
 
         <section id="cont" class="scroll-section">
           <div class="row no-margin">
-            <div class = "col-xs-12 no-margin center-green-column">
+            <div class="col-xs-12 no-margin center-green-column">
               <div class="window">
                 <div class="bar">
                   <p>ВІДПРАВИТИ МЕССЕДЖ</p>
@@ -235,7 +239,10 @@
                   <div class="point thirdp"></div>
                 </div>
                 <div class="content">
-
+                <div class="button gal_button" style="position: relative; top:40%; font-family: &#39;Play&#39;,monospace;"><a href="mailto:hack@best-lviv.org.ua">hack@best-lviv.org.ua</a></div>
+                <br>
+                <div class="button nets" style="position: relative; top:40%; font-family: &#39;Play&#39;,monospace;"><a href="https://www.facebook.com/best.hackathon/"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+                <div class="button nets" style="position: relative; top:40%; font-family: &#39;Play&#39;,monospace;"><a href="https://twitter.com/BEST_HACKathon"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
                 </div>
               </div>
             </div>
