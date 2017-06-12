@@ -132,7 +132,7 @@
     $(document).ready(function(){
   	$("#body").on("click","a", function (event) {
   		//отменяем стандартную обработку нажатия по ссылке
-  		
+
 
   		//забираем идентификатор бока с атрибута href
   		var id  = $(this).attr('href'),
@@ -184,16 +184,20 @@
     var timeinterval = setInterval(updateClock, 1000);
   }
 
-  var deadline = new Date(Date.parse(new Date()) + 87 * 24 * 60 * 60 * 1000);
+  var deadline = 'August 31 2017 23:59:59 GMT+0300';
   initializeClock('clockdiv', deadline);
+
+
+
+
 
   if ($(window).width() < 768) {
     $("#second_button").removeClass("hide");
   }else{
     $("#for_partr").removeClass("hide");
  }
- 
-$(window).on("resize",function(){ 
+
+$(window).on("resize",function(){
   if ($(window).width() < 768) {
     $("#second_button").removeClass("hide");
   }else{
