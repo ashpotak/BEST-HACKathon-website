@@ -71,7 +71,7 @@ div{
   padding: 10px;
   font-size: 8em;
   font-weight: 700;
-  top: 15vh;
+  top: 2vh;
   font-family: "Play",sans-serif;
   left: 50%;
   transform: translateX(-50%);
@@ -90,6 +90,10 @@ div{
   left: 50%;
   transform: translateX(-50%);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#top h1 img {
+  height: 40vh;
 }
 
 .left-side-column{
