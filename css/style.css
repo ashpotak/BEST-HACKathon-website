@@ -1224,5 +1224,13 @@ p {
 
 .reg_button {
    background-color: #426466;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fa-angle-double-down {
+  position: absolute;
+  top: 85vh;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  color: white;
 }
